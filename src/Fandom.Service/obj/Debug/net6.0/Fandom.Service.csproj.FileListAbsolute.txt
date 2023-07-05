@@ -1,0 +1,12 @@
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\bin\Debug\net6.0\Fandom.Service.deps.json
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\bin\Debug\net6.0\Fandom.Service.dll
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\bin\Debug\net6.0\Fandom.Service.pdb
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\obj\Debug\net6.0\Fandom.Service.csproj.AssemblyReference.cache
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\obj\Debug\net6.0\Fandom.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\obj\Debug\net6.0\Fandom.Service.AssemblyInfoInputs.cache
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\obj\Debug\net6.0\Fandom.Service.AssemblyInfo.cs
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\obj\Debug\net6.0\Fandom.Service.csproj.CoreCompileInputs.cache
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\obj\Debug\net6.0\Fandom.Service.dll
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\obj\Debug\net6.0\refint\Fandom.Service.dll
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\obj\Debug\net6.0\Fandom.Service.pdb
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\Fandom.Service\obj\Debug\net6.0\ref\Fandom.Service.dll

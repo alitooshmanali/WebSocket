@@ -1,0 +1,365 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LibLog/5.0.5": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/cs/netstandard2.0/ILog.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "ILog.cs"
+          },
+          "contentFiles/cs/netstandard2.0/ILogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "ILogProvider.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogExtensions.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogExtensions.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogLevel.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogLevel.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProvider.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/DisposableAction.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/DisposableAction.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/LibLogException.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/LibLogException.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/Log4NetLogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/Log4NetLogProvider.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/LogMessageFormatter.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/LogMessageFormatter.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/LogProviderBase.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/LogProviderBase.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/LoupeLogProvidercs.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/LoupeLogProvidercs.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/NLogLogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/NLogLogProvider.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/SerilogLogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/SerilogLogProvider.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/TraceEventTypeValues.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/TraceEventTypeValues.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LogProviders/TypeExtensions.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/TypeExtensions.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LoggerDelegate.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LoggerDelegate.cs"
+          },
+          "contentFiles/cs/netstandard2.0/LoggerExecutionWrapper.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LoggerExecutionWrapper.cs"
+          }
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Reactive.Core/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reactive.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibLog/5.0.5": {
+      "sha512": "rFy/v2mIivekxAIfo2wokUw2HfHKLYKQNMm4FMAxdhIvaC9J3QIyYcCU+8jADomu7PQlKzhS64mshSsnA225Jg==",
+      "type": "package",
+      "path": "liblog/5.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "contentFiles/cs/net45/ILog.cs.pp",
+        "contentFiles/cs/net45/ILogProvider.cs.pp",
+        "contentFiles/cs/net45/LogExtensions.cs.pp",
+        "contentFiles/cs/net45/LogLevel.cs.pp",
+        "contentFiles/cs/net45/LogProvider.cs.pp",
+        "contentFiles/cs/net45/LogProviders/DisposableAction.cs.pp",
+        "contentFiles/cs/net45/LogProviders/LibLogException.cs.pp",
+        "contentFiles/cs/net45/LogProviders/Log4NetLogProvider.cs.pp",
+        "contentFiles/cs/net45/LogProviders/LogMessageFormatter.cs.pp",
+        "contentFiles/cs/net45/LogProviders/LogProviderBase.cs.pp",
+        "contentFiles/cs/net45/LogProviders/LoupeLogProvidercs.cs.pp",
+        "contentFiles/cs/net45/LogProviders/NLogLogProvider.cs.pp",
+        "contentFiles/cs/net45/LogProviders/SerilogLogProvider.cs.pp",
+        "contentFiles/cs/net45/LogProviders/TraceEventTypeValues.cs.pp",
+        "contentFiles/cs/net45/LogProviders/TypeExtensions.cs.pp",
+        "contentFiles/cs/net45/LoggerDelegate.cs.pp",
+        "contentFiles/cs/net45/LoggerExecutionWrapper.cs.pp",
+        "contentFiles/cs/netstandard2.0/ILog.cs.pp",
+        "contentFiles/cs/netstandard2.0/ILogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogExtensions.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogLevel.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/DisposableAction.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/LibLogException.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/Log4NetLogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/LogMessageFormatter.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/LogProviderBase.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/LoupeLogProvidercs.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/NLogLogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/SerilogLogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/TraceEventTypeValues.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/TypeExtensions.cs.pp",
+        "contentFiles/cs/netstandard2.0/LoggerDelegate.cs.pp",
+        "contentFiles/cs/netstandard2.0/LoggerExecutionWrapper.cs.pp",
+        "liblog.5.0.5.nupkg.sha512",
+        "liblog.nuspec"
+      ]
+    },
+    "System.Reactive/6.0.0": {
+      "sha512": "31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "type": "package",
+      "path": "system.reactive/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net6.0-windows10.0.19041/_._",
+        "build/net6.0/_._",
+        "buildTransitive/net6.0-windows10.0.19041/_._",
+        "buildTransitive/net6.0/_._",
+        "icon.png",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net6.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net6.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net6.0/System.Reactive.dll",
+        "lib/net6.0/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.18362/System.Reactive.dll",
+        "lib/uap10.0.18362/System.Reactive.pri",
+        "lib/uap10.0.18362/System.Reactive.xml",
+        "readme.md",
+        "system.reactive.6.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "System.Reactive.Core/6.0.0": {
+      "sha512": "UBiaW+0Aq+Q6U71JwnmUWcxe+09lWKFqMt9BFALoPJz/qdHt3HdK4j2c7FdriEwwEi2Yww/7Yre0SgQk5pIbIg==",
+      "type": "package",
+      "path": "system.reactive.core/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net472/System.Reactive.Core.dll",
+        "lib/net472/System.Reactive.Core.xml",
+        "lib/netstandard2.0/System.Reactive.Core.dll",
+        "lib/netstandard2.0/System.Reactive.Core.xml",
+        "lib/uap10.0.18362/System.Reactive.Core.dll",
+        "lib/uap10.0.18362/System.Reactive.Core.pri",
+        "lib/uap10.0.18362/System.Reactive.Core.xml",
+        "readme.md",
+        "system.reactive.core.6.0.0.nupkg.sha512",
+        "system.reactive.core.nuspec"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LibLog >= 5.0.5",
+      "System.Reactive.Core >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\a.tooshmalani\\Desktop\\Projects\\WebSocket\\src\\SportScore.Live\\SportScore.Live.csproj",
+      "projectName": "SportScore.Live",
+      "projectPath": "C:\\Users\\a.tooshmalani\\Desktop\\Projects\\WebSocket\\src\\SportScore.Live\\SportScore.Live.csproj",
+      "packagesPath": "C:\\Users\\a.tooshmalani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\a.tooshmalani\\Desktop\\Projects\\WebSocket\\src\\SportScore.Live\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\a.tooshmalani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://proget.gc.io/nuget/internal-nuget": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "LibLog": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.5, )"
+          },
+          "System.Reactive.Core": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

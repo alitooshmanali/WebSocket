@@ -1,0 +1,12 @@
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\obj\Debug\net6.0\SportScore.csproj.AssemblyReference.cache
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\obj\Debug\net6.0\SportScore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\obj\Debug\net6.0\SportScore.AssemblyInfoInputs.cache
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\obj\Debug\net6.0\SportScore.AssemblyInfo.cs
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\obj\Debug\net6.0\SportScore.csproj.CoreCompileInputs.cache
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\bin\Debug\net6.0\SportScore.deps.json
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\bin\Debug\net6.0\SportScore.dll
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\bin\Debug\net6.0\SportScore.pdb
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\obj\Debug\net6.0\SportScore.dll
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\obj\Debug\net6.0\refint\SportScore.dll
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\obj\Debug\net6.0\SportScore.pdb
+C:\Users\a.tooshmalani\Desktop\Projects\MainProjects\FandomFootballService\src\SportScore\obj\Debug\net6.0\ref\SportScore.dll

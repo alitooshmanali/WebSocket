@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "o/u3x9/8hv91ODQG4gp35cVSTUbbOjC29SiYsyG5mkUmxlwaoD01wh+12NZ0N/GHeT2Paj99g1/2vCS0LCVYdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a.tooshmalani\\Desktop\\Projects\\WebSocket\\src\\Fandom.Service\\Fandom.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

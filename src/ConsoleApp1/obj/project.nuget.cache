@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mgz3eS+o6zzanshD9a4WcrMHL4rycXfbssXXuSCkgU1ZUlCSwtNrZxuqeGBNyS9joWsjIIObeuAPHOD2Cn4gbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a.tooshmalani\\Desktop\\Projects\\WebSocket\\src\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512",
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\system.reactive.core\\6.0.0\\system.reactive.core.6.0.0.nupkg.sha512",
+    "C:\\Users\\a.tooshmalani\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
